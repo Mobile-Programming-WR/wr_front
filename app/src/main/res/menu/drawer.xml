@@ -2,30 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_user"
-        android:title="사용자">
-    </item>
+        android:title="사용자"></item>
     <item
         android:id="@+id/menu_running"
-        android:title="러닝">
-    </item>
+        android:title="러닝"></item>
     <item
         android:id="@+id/menu_records"
-        android:title="기록">
-    </item>
+        android:title="기록"></item>
     <item
         android:id="@+id/menu_friends"
-        android:title="친구">
-    </item>
+        android:title="친구"></item>
     <item
         android:id="@+id/menu_compete"
-        android:title="겨루기">
-    </item>
+        android:title="겨루기"></item>
     <item
         android:id="@+id/menu_challenge"
-        android:title="챌린지">
-    </item>
+        android:title="챌린지"></item>
     <item
         android:id="@+id/menu_settings"
-        android:title="설정">
-    </item>
+        android:title="설정"></item>
 </menu>
