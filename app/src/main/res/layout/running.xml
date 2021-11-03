@@ -8,11 +8,11 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:layoutDirection="rtl"
-    tools:context=".MainActivity"
+    tools:context=".RunningActivity"
     tools:openDrawer="start">
 
     <include
-        layout="@layout/activity_main_connector"
+        layout="@layout/running_connector"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></include>
 

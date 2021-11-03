@@ -13,12 +13,18 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="API키" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+        </activity>
+        <activity android:name=".BaseCustomActivity">
+
+        </activity>
+        <activity android:name=".RunningActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
