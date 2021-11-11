@@ -12,7 +12,7 @@
     tools:openDrawer="start">
 
     <include
-        layout="@layout/activity_main_content"
+        layout="@layout/activity_main_connector"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></include>
 

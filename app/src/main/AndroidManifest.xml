@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.wr">
 
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic"
@@ -12,7 +16,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="API키" />
+            android:value="AIzaSyAJuot1TBGcdikhHkNMPO2yRKfdXQ22YpM" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -22,6 +26,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BaseCustomActivity">
+
+        </activity>
+        <!-- 추가한 액티비티 확인하려면 메인액티비티에서 intent-filter 부분 지우고 아래처럼 작성하면 됨.
+        <activity android:name=".RunningActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
     </application>
 
 </manifest>
